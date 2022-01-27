@@ -1,0 +1,32 @@
+{
+    "name": "Wordle Helper: Top Matches",
+    "description": "An experimental wordle helper extension. This extension is not associated with https://www.powerlanguage.co.uk/wordle/",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "permissions": [
+        "https://www.powerlanguage.co.uk/wordle/",
+        "storage",
+        "<all_urls>"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.powerlanguage.co.uk/wordle/"
+            ],
+            "js": [
+                "background.js"
+            ],
+            "css": [
+                "overlay.css"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [ "data/dataset" ],
+            "matches": ["<all_urls>"],
+            "extension_ids": []
+            
+        }
+    ]
+}

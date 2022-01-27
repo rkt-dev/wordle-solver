@@ -1,0 +1,51 @@
+#overlay {
+
+       position: fixed;
+       left: 0px;
+       top: 0px;
+       /* background-color: darkred; */
+       display: block;
+       margin: 5px;
+       border: 1px solid;
+       padding: 5px;
+       width:320px;
+       overflow:auto;
+       color:white;
+       font-weight:bolder;
+       background-color:var(--color-present);
+       cursor:pointer;
+       text-align: center;
+   }
+
+   .unique {
+    margin:5px;
+    padding:5px;
+}
+
+.top {
+ margin:5px;
+ padding:5px;
+}
+
+#unique {
+    margin:5px;
+    padding:5px;
+    color:darkblue;
+    text-transform:uppercase;
+}
+
+#top {
+ margin:5px;
+ padding:5px;
+ color:darkblue;
+ text-transform:uppercase;
+}
+
+.title {
+    color:darkcyan;
+    border-bottom: 1px solid grey
+}
+  
+#content {
+    display:none;
+}
