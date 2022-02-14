@@ -4,14 +4,13 @@
     "version": "0.0.1",
     "manifest_version": 3,
     "permissions": [
-        "https://www.powerlanguage.co.uk/wordle/",
-        "storage",
+        "https://www.nytimes.com/games/wordle/index.html",
         "<all_urls>"
     ],
     "content_scripts": [
         {
             "matches": [
-                "https://www.powerlanguage.co.uk/wordle/"
+                "https://www.nytimes.com/games/wordle/index.html"
             ],
             "js": [
                 "background.js"

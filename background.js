@@ -48,7 +48,7 @@ let findMatch = (words, correct, present, missing) => {
 }
 
 let processWords = () => {
-    const gameState = JSON.parse(window.localStorage.gameState);
+    const gameState = JSON.parse(window.localStorage['nyt-wordle-state']);
     const state = gameState.boardState
     const evals = gameState.evaluations;
     let paramCorrect = ['?', '?', '?', '?', '?']
